@@ -1,0 +1,1 @@
+// Freundeslisten-Element Komponente 
