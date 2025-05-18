@@ -1,7 +1,65 @@
 {
-  "common": {
-    "loading": "Lädt...",
-    "error": "Ein Fehler ist aufgetreten",
-    "retry": "Wiederholen"
+  "welcome": "Willkommen beim Imposter-Spiel!",
+  "enterName": "Gib deinen Namen ein",
+  "playAsGuest": "Als Gast spielen",  
+  "login": {
+    "title": "Anmelden",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "loginEmail": "Mit E-Mail anmelden",
+    "loginGoogle": "Mit Google anmelden",
+    "loginApple": "Mit Apple anmelden",
+    "loginDiscord": "Mit Discord anmelden",
+    "register": "Registrieren",
+    "error": {
+      "general": "Anmeldung fehlgeschlagen",
+      "invalidCredentials": "Ungültige Anmeldedaten",
+      "incorrectPassword": "Falsches Passwort",
+      "passwordRequired": "Bitte gib ein Passwort ein",
+      "emailRequired": "Bitte gib eine E-Mail-Adresse ein",
+      "network": "Netzwerkfehler",
+      "oauthCancelled": "Anmeldung abgebrochen"
+    }
+  },
+  "register": {
+    "title": "Registrieren",
+    "email": "E-Mail",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "submit": "Registrieren",
+    "back": "Zurück",
+    "error": {
+      "general": "Registrierung fehlgeschlagen",
+      "emailExists": "Diese E-Mail ist bereits registriert",
+      "invalidEmail": "Ungültige E-Mail-Adresse",
+      "emailRequired": "Bitte gib eine E-Mail-Adresse ein",
+      "weakPassword": "Passwort zu schwach",
+      "passwordTooShort": "Das Passwort muss mindestens 8 Zeichen lang sein",
+      "passwordBreached": "Dieses Passwort wurde in einem Datenleck gefunden. Bitte verwende ein anderes Passwort",
+      "passwordRequired": "Bitte gib ein Passwort ein",
+      "usernameExists": "Dieser Benutzername ist bereits vergeben",
+      "usernameInvalid": "Der Benutzername darf nur Buchstaben, Zahlen, '_' oder '-' enthalten",
+      "usernameRequired": "Bitte gib einen Benutzernamen ein"
+    }
+  },
+  "verifyEmail": {
+    "title": "E-Mail verifizieren",
+    "subtitle": "Bitte gib den Verifizierungscode ein, den wir dir per E-Mail gesendet haben",
+    "code": "Verifizierungscode",
+    "submit": "Verifizieren",
+    "back": "Zurück",
+    "error": {
+      "general": "Verifizierung fehlgeschlagen",
+      "invalidCode": "Ungültiger Verifizierungscode",
+      "incorrectCode": "Falscher Verifizierungscode",
+      "codeExpired": "Der Verifizierungscode ist abgelaufen",
+      "tooManyAttempts": "Zu viele fehlgeschlagene Versuche. Bitte versuche es erneut mit dem gleichen oder einer anderen Methode."
+    }
+  },
+  "lobby": {
+    "title": "Lobby",
+    "createGroup": "Gruppe erstellen",
+    "joinGroup": "Gruppe beitreten",
+    "friends": "Freunde"
   }
-} 
+}

@@ -1,8 +1,8 @@
 // Farbkonstanten für die App
 export const Colors = {
-  primary: '#6200EE',
-  secondary: '#03DAC6',
-  background: '#FFFFFF',
+  primary: '#ce6752',
+  secondary: '#fff8ef',
+  background: '#f5ded3',
   surface: '#FFFFFF',
   error: '#B00020',
   text: '#000000',

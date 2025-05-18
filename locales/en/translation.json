@@ -1,7 +1,65 @@
 {
-  "common": {
-    "loading": "Loading...",
-    "error": "An error occurred",
-    "retry": "Retry"
+  "welcome": "Welcome to Imposter Game!",
+  "enterName": "Enter your name",
+  "playAsGuest": "Play as Guest",
+  "login": {
+    "title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "loginEmail": "Login with Email",
+    "loginGoogle": "Login with Google",
+    "loginApple": "Login with Apple",
+    "loginDiscord": "Login with Discord",
+    "register": "Register",
+    "error": {
+      "general": "Login failed",
+      "invalidCredentials": "Invalid credentials",
+      "incorrectPassword": "Incorrect password",
+      "passwordRequired": "Please enter a password",
+      "emailRequired": "Please enter an email address",
+      "network": "Network error",
+      "oauthCancelled": "Login cancelled"
+    }
+  },
+  "register": {
+    "title": "Register",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Register",
+    "back": "Back",
+    "error": {
+      "general": "Registration failed",
+      "emailExists": "Email already exists",
+      "invalidEmail": "Invalid email address",
+      "emailRequired": "Please enter an email address",
+      "weakPassword": "Password too weak",
+      "passwordTooShort": "Password must be at least 8 characters long",
+      "passwordBreached": "This password has been found in a data breach. Please use a different password",
+      "passwordRequired": "Please enter a password",
+      "usernameExists": "Username already taken",
+      "usernameInvalid": "Username can only contain letters, numbers, '_' or '-'",
+      "usernameRequired": "Please enter a username"
+    }
+  },
+  "verifyEmail": {
+    "title": "Verify Email",
+    "subtitle": "Please enter the verification code we sent to your email",
+    "code": "Verification Code",
+    "submit": "Verify",
+    "back": "Back",
+    "error": {
+      "general": "Verification failed",
+      "invalidCode": "Invalid verification code",
+      "incorrectCode": "Incorrect verification code",
+      "codeExpired": "Verification code has expired",
+      "tooManyAttempts": "Too many failed attempts. Please try again with the same or another method."
+    }
+  },
+  "lobby": {
+    "title": "Lobby",
+    "createGroup": "Create Group",
+    "joinGroup": "Join Group",
+    "friends": "Friends"
   }
-} 
+}
